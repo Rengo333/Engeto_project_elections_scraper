@@ -27,6 +27,7 @@ Průběh stahování:
 > Downloading data from your url: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
 > Saving data in file: vysledky_prostejov.csv
 > Your file vysledky_prostejov.csv was created.Enjoy.Exiting program elections_scraper.py.
+
 Částečný výstup:
 > Town Code, Town Name, Registered, Envelopes, Valid votes,
 > 506761,Alojzov,205,145,144,29,0,0,9,0,5,17,4,1,1,0,0,18,0,5,32,0,0,6,0,0,1,1,15,0
