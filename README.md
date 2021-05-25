@@ -1,8 +1,11 @@
 # Elections Scraper Projekt
+---
 Třetí projekt pro akademii engeto.
 ### Popis Projektu
+---
 Tento projekt slouží pro extrahování výsledků z parlamentních voleb v roce 2017.Odkaz k prohlédnutí [zde](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103).
 ### Instalace knihoven
+---
 Knihovny, které jsou použity v kódu jsou uložené v souboru requirements.txt.Pro instalaci doporučuji použít nové virtuální prostředí a s nainstalovaným manažerem spustit následovně:
 
 ###### pip --version  #ověření verze manažeru
@@ -12,6 +15,7 @@ Spuštění souboru elections_scraper.py v rámci příkaz. řádku požaduje dv
 ###### python elections_scraper.py "odkaz-uzemniho-celku" "nazev-vysledneho-souboru"
 Následně se vám stáhnou výsledku jako soubor s připonou .csv.
 ### Ukázka projektu
+---
 Výsledky hlasování pro okres Prostějov:
 1. argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
 2. argument: vysledky_prostejov.csv
