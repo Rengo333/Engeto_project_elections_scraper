@@ -1,18 +1,15 @@
 from bs4 import BeautifulSoup as BS
 import requests
 import sys
-# import os.path as op
-my_url = "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103"
-my_file_name = "vysledky_prostejov.csv"
 import csv
 from urllib.parse import urljoin
 
 
 def main():
-    #if not check_args():
-        #exit()
-    #my_url = sys.argv[1]
-    #my_file_name = sys.argv[2]
+    if not check_args():
+        exit()
+    my_url = sys.argv[1]
+    my_file_name = sys.argv[2]
     print("Downloading data from your url: ", my_url)
     print(f"Saving data in file: {my_file_name}")
     r = requests.get(my_url)
