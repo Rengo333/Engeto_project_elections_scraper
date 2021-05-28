@@ -35,6 +35,8 @@ Průběh stahování:
 > Your file vysledky_prostejov.csv was created.Enjoy.Exiting program elections_scraper.py.
 
 Částečný výstup:
+
 > Town Code, Town Name, Registered, Envelopes, Valid votes,
+
 > 506761,Alojzov,205,145,144,29,0,0,9,0,5,17,4,1,1,0,0,18,0,5,32,0,0,6,0,0,1,1,15,0
 > 589268,Bedihošť,834,527,524,51,0,0,28,1,13,123,2,2,14,1,0,34,0,6,140,0,0,26,0,0,0,0,82,1
